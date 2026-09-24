@@ -2,7 +2,7 @@
 🌐 **Live Demo** <br>
 ✨ [Clicca qui per vedere il mio Progetto online!](https://lindachioda.github.io/Angular-Photo-Gallery./)
 
-🛠️ **Tecnologie utilizzate**
+🛠️ **Tecnologie utilizzate** <br>
 * Angular
 * TypeScript
 * RxJS
@@ -12,10 +12,10 @@
 * REST API
 * JSONPlaceholder
 
-📸 **Angular Photo Gallery – HTTP API & RxJS**
+📸 **Angular Photo Gallery – HTTP API & RxJS** <br>
 Develop an Angular photo gallery using the JSONPlaceholder REST API to retrieve and delete photos. The project focuses on working with HTTP requests, TypeScript typing, error handling, RxJS Subjects, and HTTP Interceptors.
 
-⚙️ **Features**
+⚙️ **Features** <br>
 * Retrieve photos using an Angular service.
 * Delete photos through HTTP requests.
 * Strongly type API operations and data using TypeScript.
