@@ -1,0 +1,30 @@
+
+.card-container-one, .card-container-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.div-button {
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+    justify-content: center;
+}
+
+@media  (max-width: 768px) {
+    .card-container-one, .card-container-two{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+    }
+}

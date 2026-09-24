@@ -1,0 +1,56 @@
+
+<!--le immagini generate sono random perchè il link delle immagini affiliato all'api non funziona più-->
+<h2>Totale foto preferite: {{numero}}</h2>
+<div class="card-container-one">
+  <div class="card" style="width: 18rem;" *ngIf="photos[0]?.isVisible">
+  <img src="https://picsum.photos/200" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{photos[0].id}}</h5>
+    <p class="card-text">{{photos[0].title}}</p>
+  <div class="div-button">
+    <button class="btn btn-danger" (click)="eliminaClick(0)">Elimina</button>
+    <button class="btn btn-success" (click)="onClick()">Mi Piace</button>
+  </div>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;" *ngIf="photos[1]?.isVisible">
+  <img src="https://picsum.photos/400" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{photos[1].id}}</h5>
+    <p class="card-text">{{photos[1].title}}</p>
+  <div class="div-button">
+    <button class="btn btn-danger" (click)="eliminaClick(1)">Elimina</button>
+    <button class="btn btn-success" (click)="onClick()">Mi Piace</button>
+  </div>
+  </div>
+</div>
+</div>
+
+<div class="card-container-two">
+  <div class="card" style="width: 18rem;"*ngIf="photos[2]?.isVisible">
+  <img src="https://picsum.photos/600" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{photos[2].id}}</h5>
+    <p class="card-text">{{photos[2].title}}</p>
+    <div class="div-button">
+       <button class="btn btn-danger" (click)="eliminaClick(2)">Elimina</button>
+       <button class="btn btn-success" (click)="onClick()">Mi Piace</button>
+    </div>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;" *ngIf="photos[3]?.isVisible">
+  <img src="https://picsum.photos/300" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{photos[3].id}}</h5>
+    <p class="card-text">{{photos[3].title}}</p>
+  <div class="div-button"> 
+    <button class="btn btn-danger" (click)="eliminaClick(3)">Elimina</button>
+    <button class="btn btn-success" (click)="onClick()">Mi Piace</button>
+  </div>
+  </div>
+</div>
+</div>
+
+<router-outlet></router-outlet>
