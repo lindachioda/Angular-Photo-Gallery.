@@ -13,6 +13,7 @@
 * JSONPlaceholder
 
 📸 **Angular Photo Gallery – HTTP API & RxJS** <br>
+
 Develop an Angular photo gallery using the JSONPlaceholder REST API to retrieve and delete photos. The project focuses on working with HTTP requests, TypeScript typing, error handling, RxJS Subjects, and HTTP Interceptors.
 
 ⚙️ **Features** <br>
