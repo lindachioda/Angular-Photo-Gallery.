@@ -1,0 +1,70 @@
+{
+  "hash": "e7beeecf",
+  "configHash": "9c07bb92",
+  "lockfileHash": "78fe8920",
+  "browserHash": "10ebecfa",
+  "optimized": {
+    "@angular/common": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "f77718b6",
+      "needsInterop": false
+    },
+    "@angular/common/http": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/http.mjs",
+      "file": "@angular_common_http.js",
+      "fileHash": "4ed83e01",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "02cf0d80",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "9a23509a",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "660507c5",
+      "needsInterop": false
+    },
+    "rxjs": {
+      "src": "../../../../../../node_modules/rxjs/dist/esm5/index.js",
+      "file": "rxjs.js",
+      "fileHash": "aaf035fe",
+      "needsInterop": false
+    },
+    "zone.js": {
+      "src": "../../../../../../node_modules/zone.js/fesm2015/zone.js",
+      "file": "zone__js.js",
+      "fileHash": "a3a81a37",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-URMEFCD3": {
+      "file": "chunk-URMEFCD3.js"
+    },
+    "chunk-HH4H4QHI": {
+      "file": "chunk-HH4H4QHI.js"
+    },
+    "chunk-ANSYJQ4F": {
+      "file": "chunk-ANSYJQ4F.js"
+    },
+    "chunk-M33QBAUQ": {
+      "file": "chunk-M33QBAUQ.js"
+    },
+    "chunk-5BP2P7XS": {
+      "file": "chunk-5BP2P7XS.js"
+    },
+    "chunk-KUW5KNZA": {
+      "file": "chunk-KUW5KNZA.js"
+    }
+  }
+}
